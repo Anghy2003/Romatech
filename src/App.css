@@ -2109,3 +2109,54 @@ body[data-theme='dark'] .footer-contact h4 {
     align-items: flex-start;
   }
 }
+/* ================================
+   PROCESS RESPONSIVE FIX
+================================ */
+
+@media (max-width: 1024px) {
+
+  .process-showcase-top {
+    grid-template-columns: 1fr;
+  }
+
+  .process-showcase-content {
+    padding: 2rem;
+  }
+
+  .process-showcase-media img {
+    min-height: 300px;
+  }
+
+  .process-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  .process-showcase {
+    gap: 1.5rem;
+  }
+
+  .process-showcase-top {
+    grid-template-columns: 1fr;
+  }
+
+  .process-showcase-content {
+    padding: 1.5rem;
+  }
+
+  .process-showcase-title {
+    font-size: 2rem;
+  }
+
+  .process-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-story-card {
+    min-height: 300px;
+  }
+
+}

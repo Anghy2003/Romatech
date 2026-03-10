@@ -83,7 +83,7 @@ function App() {
           setCounted(true);
           animateCount(setCount1, 0, 3, 1500);
           animateCount(setCount2, 0, 20, 2000);
-          animateCount(setCount3, 0, 5, 1800);
+          animateCount(setCount3, 0, 13, 1800);
           animateCount(setCount4, 0, 3, 1200);
         }
       },
